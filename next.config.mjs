@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    experimental: {
+      serverActions: true, // Włączanie server actions w Next.js 13
+    },
+  };
+  
+export default nextConfig
+  
